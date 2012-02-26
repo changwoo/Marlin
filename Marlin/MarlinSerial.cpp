@@ -23,7 +23,7 @@
 #include "Marlin.h"
 #include "MarlinSerial.h"
 
-#if MOTHERBOARD != 8 // !teensylu
+#if (MOTHERBOARD != 8) && (MOTHERBOARD != 81) // !teensylu && !printrboard
 // this next line disables the entire HardwareSerial.cpp, 
 // this is so I can support Attiny series and any other chip without a uart
 #if defined(UBRRH) || defined(UBRR0H) || defined(UBRR1H) || defined(UBRR2H) || defined(UBRR3H)

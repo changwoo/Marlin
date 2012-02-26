@@ -46,7 +46,7 @@
 
 #include "WString.h"
 
-#if MOTHERBOARD == 8  // Teensylu
+#if (MOTHERBOARD == 8) || (MOTHERBOARD == 81)  // Teensylu or Printrboard
   #define MYSERIAL Serial
 #else
   #define MYSERIAL MSerial

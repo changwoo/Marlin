@@ -28,6 +28,7 @@
 // Sanguinololu 1.2 and above = 62
 // Ultimaker = 7
 // Teensylu = 8
+// Printrboard Rev. B = 81
 // Gen3+ =9
 #define MOTHERBOARD 7
 
